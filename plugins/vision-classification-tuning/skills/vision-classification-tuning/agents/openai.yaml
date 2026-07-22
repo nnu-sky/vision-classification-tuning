@@ -1,0 +1,4 @@
+interface:
+  display_name: "视觉训练配方优化"
+  short_description: "读取项目代码，主动发现、排序并验证高概率训练优化方向"
+  default_prompt: "使用 $vision-classification-tuning 读取当前项目代码和训练记录，主动推荐最值得测试的视觉训练配方候选。"
