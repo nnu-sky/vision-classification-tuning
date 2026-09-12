@@ -1,13 +1,13 @@
 {
   "name": "vision-classification-tuning",
-  "version": "0.1.0",
-  "description": "让 Codex 读取视觉训练代码，主动发现、排序并验证低成本训练配方候选。",
+  "version": "0.1.1",
+  "description": "显式调用后优化视觉分类与表征学习的训练配方",
   "author": {
     "name": "nnu-sky",
     "url": "https://github.com/nnu-sky"
   },
-  "homepage": "https://github.com/nnu-sky/vision-classification-tuning",
-  "repository": "https://github.com/nnu-sky/vision-classification-tuning",
+  "homepage": "https://github.com/nnu-sky/skills",
+  "repository": "https://github.com/nnu-sky/skills",
   "license": "MIT",
   "keywords": [
     "pytorch",
@@ -19,8 +19,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "视觉训练配方优化",
-    "shortDescription": "读取项目代码，主动发现、排序并验证高概率训练优化方向",
-    "longDescription": "读取模型、损失、数据、优化器、调度和已有日志，筛选少量与当前项目匹配的训练配方候选，推荐首选并按授权完成低成本验证。",
+    "shortDescription": "显式调用后优化视觉分类与表征学习的训练配方",
+    "longDescription": "显式调用后优化视觉分类与表征学习的训练配方",
     "developerName": "nnu-sky",
     "category": "Developer Tools",
     "capabilities": [
@@ -28,6 +28,6 @@
       "Read",
       "Write"
     ],
-    "defaultPrompt": "读取当前视觉训练项目的代码和训练记录，推荐最值得测试的低成本训练配方候选。"
+    "defaultPrompt": "使用 $vision-classification-tuning 分析当前视觉项目并验证训练配方。"
   }
 }

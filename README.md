@@ -1,3 +1,5 @@
+> 统一维护入口：[nnu-sky/skills](https://github.com/nnu-sky/skills)。本仓库保留兼容安装包；新开发以统一仓库为准。
+
 # Vision Classification Tuning
 
 > 让 Codex 不只会运行现有配方，还能读懂训练代码，主动发现值得尝试的低成本涨点方向。
